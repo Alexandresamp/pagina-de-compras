@@ -1,0 +1,133 @@
+/*{
+Cinza Claro: #7F7F7F
+Azul: #2E68FF
+Preto: #000000
+Azul Claro: #F4F9FF
+}*/
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  *{
+    font-family: 'Inter', sans-serif;
+  }
+  
+  header{
+    margin-top: 30px;
+  }
+  h2{
+    font-size: 48px;
+    color: #000000;
+  }
+  section.centro{
+    width: 1216px;
+    margin: 0px auto;
+  }
+  
+  header section.centro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1216px;
+    margin: 0px auto;
+  }
+  .tamanho-imagem{
+    width: 90%;
+
+  }
+ 
+  .imagem-produto{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 5rem;
+  }
+ .valor{
+  color: #2E68FF;
+ }
+ .btn{
+  background-color: #2E68FF;
+  width: 200px;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  }
+ 
+  .tabela {
+    width: 1216px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .ulEsquerda {
+    width: 50%
+  }
+  
+  .liEsquerda {
+    display: flex;
+    background-color: #2E68FF;
+    margin-bottom: 0.3rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .liEsquerda h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+  }
+  
+  .ulDireita {
+    width: 50%
+  }
+  
+  .liDireita {
+    display: flex;
+    background-color: #F4F9FF;
+    margin-bottom: 0.3rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .liDireita h1 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: normal;
+  }
+  .detalhes{
+    display: flex;
+    margin-left: 40px;
+  }
+  
+  .banner{
+    margin-top: 100px;
+  }
+  
+  input{
+    outline: none;
+    height: 40px;
+    width: 250px;
+    background-color: #F4F9FF;
+    border-radius: 5px;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    border: .5px solid #e7e5e5;
+  }
+  .footer{
+    background-color: #e60000;
+    } 
